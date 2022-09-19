@@ -45,7 +45,7 @@
 **使用:**
 由于富文本不适合双向数据流，所以只会 watch 传入富文本的内容一次变化，之后传入内容的变化就不会再监听了，如果之后还有改变富文本内容的需求。
 
-可以通过 `this.refs.xxx.setContent()` 手动来设置。
+可以通过 `this.$refs.xxx.setContent()` 手动来设置。
 
 源码也很简单，有任何别的需求都可以在 [@/components/Tinymce](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/Tinymce) 中自行修改。
 
